@@ -23,4 +23,4 @@ Complete:
     cd /etc/ansible/pg_faker/ ; mv  *  /etc/ansible/
     cd /etc/ansible/  && rm -rf pg_faker/
 
-    $ ansible-playbook setup.yml --extra-vars "database_name=my_database"
+    $ ansible-playbook setup2.yml --extra-vars "database_name=my_database"
